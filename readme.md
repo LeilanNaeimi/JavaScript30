@@ -10,8 +10,10 @@ This repository contains my written guides for the JavaScript30 course by Wes Bo
 
 ## Table Of Contents
 
-JavaScript Drum Kit
-JS + CSS Clock
+1. JavaScript Drum Kit
+
+2. JS + CSS Clock
+
 CSS Variables
 Array Cardio, Day 1
 Flex Panel Gallery
