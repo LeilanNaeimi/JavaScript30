@@ -2,6 +2,6 @@
 
 # JavaScript30
 
-Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
+My 30 days challenge of JavaScript.
 
 
