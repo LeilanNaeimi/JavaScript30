@@ -11,7 +11,10 @@ function playSound(e) {
 
 function changeVolume() {
   const input = document.getElementById("vol");
-  console.log(input.value);
+
+  let curVol = document.getElementById("currentVolume");
+  curVol.innerHTML = input.value;
+  // console.log(input.value);
   const audioElements = document.querySelectorAll(".myAudio");
   audioElements.forEach((audio) => {
     audio.volume = input.value;
