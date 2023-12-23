@@ -5,7 +5,7 @@
 
 ### Course created by Wes Bos Join the challenge (for free!) here - JavaScript30
 
-This repository contains my written guides for the JavaScript30 course by Wes Bos.
+> This repository contains my written guides for the JavaScript30 course by [Wes Bos]().
 
 ## Table Of Contents
 
