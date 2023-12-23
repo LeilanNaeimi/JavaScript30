@@ -13,10 +13,10 @@ This repository contains my written guides for the JavaScript30 course by Wes Bo
 
 2. JS + CSS Clock
 
-CSS Variables
-Array Cardio, Day 1
-Flex Panel Gallery
-Type Ahead
+3. CSS Variables
+4. Array Cardio, Day 1
+5. Flex Panel Gallery
+6. Type Ahead
 Array Cardio, Day 2
 Fun with HTML5 Canvas
 Dev Tools Domination
