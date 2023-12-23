@@ -9,12 +9,13 @@ function playSound(e) {
   key.classList.add("playing");
 }
 
-function changeVolume(v) {
+function changeVolume() {
+  const input = document.getElementById("vol");
+  console.log(input.value);
   const audioElements = document.querySelectorAll(".myAudio");
   audioElements.forEach((audio) => {
-    audio.volume = v;
+    audio.volume = input.value;
   });
-  // console.log(v, audioElements);
 }
 
 function removeTransition(e) {

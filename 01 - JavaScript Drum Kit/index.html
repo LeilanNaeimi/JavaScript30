@@ -9,9 +9,14 @@
   </head>
   <body>
     <div class="volume" title="Volume">
-      <button onclick="changeVolume(0)" type="button">0</button>
-      <button onclick="changeVolume(0.5)" type="button">0.5</button>
-      <button onclick="changeVolume(1)" type="button">1</button>
+      <input
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        onclick="changeVolume()"
+        id="vol"
+      />
     </div>
     <div class="keys">
       <div data-key="65" class="key">
