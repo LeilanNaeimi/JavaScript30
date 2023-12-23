@@ -3,9 +3,18 @@ function playSound(e) {
   const key = this.document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
   if (!audio) return;
+  audio.currentTime = 0;
 
   audio.play();
   key.classList.add("playing");
+}
+
+function changeVolume(v) {
+  const audioElements = document.querySelectorAll(".myAudio");
+  audioElements.forEach((audio) => {
+    audio.volume = v;
+  });
+  // console.log(v, audioElements);
 }
 
 function removeTransition(e) {
